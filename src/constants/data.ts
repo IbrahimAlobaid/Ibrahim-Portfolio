@@ -98,89 +98,91 @@ export const experiences: Experience[] = [
           'Optimized throughput and system reliability via asynchronous workers, backpressure control, and structured logging for observability'
         ],
       },
+    ],
+  },
+  {
+    role: 'AI Engineer',
+    company: 'H&H',
+    period: 'Jan 2025 — Apr 2025',
+    type: 'Full-time, Remote',
+    details: [
       {
-        role: 'AI Engineer',
-        company: 'H&H',
-        period: 'Jan 2025 — Apr 2025',
-        type: 'Full-time, Remote',
-        details: [
-          {
-            title: 'Scalable AI Chatbot Infrastructure',
-            bullets: [
-              'Designed scalable AI chatbot infrastructure with dynamic model switching (OpenAI / Groq)',
-              'Built LLMProviderFactory abstraction with session persistence',
-              'Applied ReAct reasoning framework for improved agent behavior',
-              'Optimized cost vs latency routing strategy for production workloads',
-            ],
-          },
+        title: 'Scalable AI Chatbot Infrastructure',
+        bullets: [
+          'Designed scalable AI chatbot infrastructure with dynamic model switching (OpenAI / Groq)',
+          'Built LLMProviderFactory abstraction with session persistence',
+          'Applied ReAct reasoning framework for improved agent behavior',
+          'Optimized cost vs latency routing strategy for production workloads',
         ],
       },
+    ],
+  },
+  {
+    role: 'Co-Founder',
+    company: 'Aleppo Dev Community',
+    period: 'April 2025 — Present',
+    type: 'Community',
+    details: [
       {
-        role: 'Co-Founder',
-        company: 'Aleppo Dev Community',
-        period: 'April 2025 — Present',
-        type: 'Community',
-        details: [
-          {
-            title: 'Community Leadership',
-            bullets: [
-              'Co-founded regional AI & software engineering community',
-              'Organized AI workshops and bootcamps for developers',
-              'Built strategic tech partnerships across the region',
-              'Mentored ML students and aspiring engineers',
-            ],
-          },
+        title: 'Community Leadership',
+        bullets: [
+          'Co-founded regional AI & software engineering community',
+          'Organized AI workshops and bootcamps for developers',
+          'Built strategic tech partnerships across the region',
+          'Mentored ML students and aspiring engineers',
         ],
       },
+    ],
+  },
+  {
+    role: 'Computer Vision Engineer',
+    company: 'Freelance',
+    period: 'July 2023 — Nov 2024',
+    type: 'Freelance',
+    details: [
       {
-        role: 'Computer Vision Engineer',
-        company: 'Freelance',
-        period: 'July 2023 — Nov 2024',
-        type: 'Freelance',
-        details: [
-          {
-            title: 'Autonomous Driving & Perception Systems',
-            bullets: [
-              'Implemented object detection pipelines with multi-sensor fusion and 3D scene understanding',
-              'Worked with LiDAR data and stereo vision systems',
-              'Deployed YOLO real-time inference for autonomous perception',
-              'Improved robustness under dynamic conditions',
-            ],
-          },
+        title: 'Autonomous Driving & Perception Systems',
+        bullets: [
+          'Implemented object detection pipelines with multi-sensor fusion and 3D scene understanding',
+          'Worked with LiDAR data and stereo vision systems',
+          'Deployed YOLO real-time inference for autonomous perception',
+          'Improved robustness under dynamic conditions',
         ],
       },
+    ],
+  },
+  {
+    role: 'Data Scientist',
+    company: 'Omdena',
+    period: '2023 — Nov 2023',
+    type: 'Collaborative',
+    details: [
       {
-        role: 'Data Scientist',
-        company: 'Omdena',
-        period: '2023 — Nov 2023',
-        type: 'Collaborative',
-        details: [
-          {
-            title: 'Global AI Impact Projects',
-            bullets: [
-              'Participated in global AI impact projects with distributed teams',
-              'Feature engineering and predictive modeling for real-world datasets',
-              'Distributed AI collaboration across international teams',
-            ],
-          },
+        title: 'Global AI Impact Projects',
+        bullets: [
+          'Participated in global AI impact projects with distributed teams',
+          'Feature engineering and predictive modeling for real-world datasets',
+          'Distributed AI collaboration across international teams',
         ],
       },
+    ],
+  },
+  {
+    role: 'Remote Support Engineer',
+    company: 'Mostaql.com',
+    period: 'May 2023 — Nov 2023',
+    type: 'Part-time',
+    details: [
       {
-        role: 'Remote Support Engineer',
-        company: 'Mostaql.com',
-        period: 'May 2023 — Nov 2023',
-        type: 'Part-time',
-        details: [
-          {
-            title: 'Technical Support',
-            bullets: [
-              'Infrastructure troubleshooting and software issue resolution',
-              'International client support with high satisfaction ratings',
-            ],
-          },
+        title: 'Technical Support',
+        bullets: [
+          'Infrastructure troubleshooting and software issue resolution',
+          'International client support with high satisfaction ratings',
         ],
       },
-    ];
+    ],
+  },
+];
 
     export interface Project {
     title: string;
