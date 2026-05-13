@@ -2,7 +2,7 @@
 
 A production-grade personal portfolio for Ibrahim Alobaid, AI Engineer specializing in Voice Agents & Multi-Modal Systems.
 
-**Live site:** https://ibrahimalobaid.dev
+**Live site:** [Ibrahim Alobaid \| AI Engineer — Voice Agents & Multi-Modal Systems](https://ibrahim-portfolio-kkry-cfro3xrvu-ibrahimalobaids-projects.vercel.app/)
 
 ---
 
